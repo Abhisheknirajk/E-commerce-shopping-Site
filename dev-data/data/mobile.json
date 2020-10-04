@@ -1,0 +1,226 @@
+[
+    {
+        "name":"Redmi Note7 Pro",
+        "brand":"MI",
+        "price":9999,
+        "camera":"48MP",
+        "display":"16.0 cm (6.3 inch)Resolution2340 x 1080 pixelsResolution TypeFull HD ",
+        "memory":" 4 GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":" Qualcomm Snapdragon 675 Processo",
+        "battery":" 4000 mAh Li-polymer Battery",
+        "includes":" Handset, SIM Ejector Tool, Soft Case, Manual, Adapter, Cable",
+        "images":[
+            "mobile-1-1.jpg",
+            "mobile-1-2.jpg",
+            "mobile-1-3.jpg"
+        ],
+        "description":"Whether it’s work or entertainment, the Redmi Note 7 Pro challenges all odds and provides a truly immersive and enriched smartphone experience. Its 2.0 GHz Qualcomm Snapdragon 675 processor makes multitasking easy and it also comes with a (48 MP  5 MP) dual-rear camera and a 13 MP front camera which let you click truly beautiful pictures. What’s more, the Face Unlock features makes unlocking this phone a piece of cake.",
+        "imageCover":"mobile-1-cover.jpg",
+        "description1Name":"Product Description",
+        "description2Name":"Powerful Performance",
+        "description3Name":"Click Stunning Pictures",
+        "description2":"Featuring a (48 MP + 5 MP) dual-rear camera setup, the Redmi Note 7 Pro lets you click gorgeous pictures, capturing every little detail. Its 48MP Sony IMX586 and sensor Electronic Image Stabilisation feature let you shoot steady and shake-free videos.",
+        "description1":"Enjoy a seamless and efficient smartphone experience, thanks to the powerful 2.0 GHz Qualcomm Snapdragon 675 processor. Whether you're playing games, watching videos, or browsing the Internet, the Redmi Note 7 Pro delivers a super-fast performance. It also comes with 64 GB of storage capacity, so you can store all your pictures and music with ease.",
+        "description3":"It's time to go big with the Redmi Note 7 Pro's 16-cm (6.3) FHD+ Dot Notch display. Powered by a 2.0 GHz Qualcomm Snapdragon 675 processor and 4 GB of RAM, this smartphone lets you experience the next level of performance and control. With a (48 MP + 5 MP) dual-rear camera, a 13 MP front camera, and features such as Face Unlock and 4K Video Recording, the Redmi Note 7 Pro truly puts a new spin on your smartphone experience."
+
+    },
+    
+    {
+        "name":"Samsung Galaxy A50s",
+        "brand":"Samsung",
+        "price":19999,
+        "camera":"48MP  5MP | 13MP Front Camera",
+        "display":" 16.26 cm (6.4 inch) Full HD Display",
+        "memory":" 6 GB RAM | 128 GB ROM ",
+        "operatingSystem":" Exynos 9611 Processor",
+        "battery":" 4000 mAh Li-ion Battery",
+        "includes":" Handset, Headset, Travel Adapter, USB Cable and User Manual",
+        "images":[
+            "mobile-2-1.jpg",
+            "mobile-2-2.jpg",
+            "mobile-2-3.jpg"
+        ],
+        "description":" Watch your favourite shows come alive on the FHD sAMOLED Infinity-U display, capture wonderful moments with the triple rear camera (48 MP  8 MP  5 MP), and do so much more with the Samsung Galaxy A50s smartphone. Its 3D Prism design is attractive to look at and it will delight everyone who lays their eyes on it.",
+        "imageCover":"mobile-2-cover.jpg",
+        "description3":"Featuring a 48 MP main camera, an 8 MP ultra-wide camera, and a 5 MP depth camera, this smartphone will let you click stunning pictures and videos. What’s more? It also comes with added features, including Super Steady Video and Night mode.",
+        "description2Name":"Infinity-U Display",
+        "description1Name":"Performance Features",
+        "description1":"Enjoy lag-free gaming and multitask with ease, as this smartphone comes with 4 GB of RAM and the powerful Exynos 9 Series octa-core processor. It also comes with a memory capacity of up to 128 GB, thereby letting you store as many files as you want",
+        "description2":"This smartphone’s 16.21 cm (6.4) FHD+ sAMOLED Infinity-U display will spoil you with its improved visual experience",
+        "description3Name":"Triple Rear Camera"
+         
+    },
+    
+    {
+        "name":"Samsung Galaxy S10 plus",
+        "brand":"Samsung",
+        "price":39999,
+        "camera":"48MP  12MP  5MP | 32MP Front Camera",
+        "display":" 17.02 cm (6.7 inch) Full HD Display",
+        "memory":" 8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "operatingSystem":" Qualcomm Snapdragon 855 (SM8150) Processor",
+        "battery":" 4500 mAh Lithium-ion Battery",
+        "includes":" Handset, Non-removable Battery Included, Earphones (Type-C), Travel Adapter, USB Cable, User Manual",
+        "images":[
+            "mobile-3-1.jpg",
+            "mobile-3-2.jpg",
+            "mobile-3-3.jpg"
+        ],
+        "description":"Start with the 48MP Main Camera for vibrant, high-resolution photos day or night. Switch to the 123° Ultra Wide Camera for breathtaking landscape. Get as close as 4cm to uncover the finest details with the Macro Camera and flip over to take share-worthy selfies with the 32MP Front Camera. ",
+        "imageCover":"mobile-3-cover.jpg",
+        "description1Name":"Product Description",
+        "description2Name":"No Notch, No Distractions - Design",
+        "description3Name":"Infinity-O Display",
+        "productDiscription":"Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10 Plus. It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos. That's not all, the Samsung S10 Plus has the Infinity-O Display and a seamless design that make this smartphone a true masterpiece.",
+        "description1":"Get ready to explore the next generation of powerful computing and mobile photography with the Samsung Galaxy S10 Plus. It comes with an Intelligent Camera that automatically optimizes its settings to give you picture-perfect photos. That's not all, the Samsung S10 Plus has the Infinity-O Display and a seamless design that make this smartphone a true masterpiec",
+        "description2":"The Samsung S10 Plus is designed to give you a smartphone experience like never before. How? It has no notch and no distractions, which make it a smartphone worth showing off. Its Precise Laser Cutting, On-screen Security, and its Dynamic AMOLED screen ensure that this smartphone is easy on your eyes while also enhancing your user experience.",
+        "description3":"To ensure an interruption-free experience, the Samsung S10 Plus comes with the Infinity-O Display."
+
+    },
+    
+    {
+        "name":"Realme C2",
+        "brand":"Oppo",
+        "price":5999,
+        "camera":"13MP  2MP | 5MP Front Camera",
+        "display":" 15.49 cm (6.1 inch) HD Displa",
+        "memory":" 2 GB RAM | 32 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":"MediaTek P22 Octa Core 2.0 GHz Processor ",
+        "battery":" 4000 mAh Battery",
+        "includes":" Handset, Adapter (5V/2A), Micro-USB Cable, Important Information Booklet with Warranty Card, Quick Guide, SIM Card Tool, Screen Protect Film",
+        "images":[
+            "mobile-4-1.jpg",
+            "mobile-4-2.jpg",
+            "mobile-4-3.jpg"
+        ],
+        "description":" Say hello to the Realme C2 smartphone whose stylish design encompasses plenty of features, such as a 13 MP  2 MP rear camera, a 5 MP front camera, and a 4000 mAh battery to make your life simpler.",
+        "imageCover":"mobile-4-cover.jpg",
+        "description1Name":"Dewdrop Full Screen",
+        "description2Name":"Powerful Performance",
+        "description3Name":"Massive 4000 mAh Battery",
+        "description1":"Viewing pictures and watching videos become enjoyable on the C2’s 15.5-cm (6.1) display. While the curved boundaries at the dewdrop area add to the beauty of the screen, the C2’s 19.5:9 aspect ratio and the 89.35% screen-to-body ratio provide a truly immersive visual experience.",
+        "description2":"Powered by a 2.0 GHz MediaTek Helio P22 octa-core processor and 3 GB of RAM, the C2 ensures a smooth and reliable experience. Baked in the TSMC 12nm FinFET process, its octa-core CPU and IMG PowerVR GE8320 GPU let you run all your apps and games seamlessly. It also comes with 32 GB of internal memory, allowing you to store your pictures, videos, and other files with ease.",
+        "description3":"Forget about charging your phone frequently during the day as the C2 comes with a massive 4000 mAh battery. The MediaTek CorePilot Technology, along with a 12nm efficient processor, balances the load effortlessly."
+
+    },
+    
+    {
+        "name":"OPPO F11 Pro",
+        "brand":"OPPO",
+        "price":16999,
+        "camera":"48MP  5MP | 16MP Front Camera",
+        "display":" 16.51 cm (6.5 inch) Full HD Display",
+        "memory":" 6 GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":" MediaTek Helio P70 Octa Core 2.1 GHz Processor",
+        "battery":" 4000 mAh Li-polymer Battery",
+        "includes":" ",
+        "images":[
+            "mobile-5-1.jpg",
+            "mobile-5-2.jpg",
+            "mobile-5-3.jpg"
+        ],
+        "description":" There are plenty of reasons as to why the OPPO F11 Pro smartphone is going to be your new favourite device. For the picture lovers, this phone will be a boon, thanks to its 48 MP  5 MP Dual Rear camera and its rising front camera. Its massive 4000 mAh battery will keep you glued to your device, without worrying about charging",
+        "imageCover":"mobile-5-cover.jpg",
+        "description1Name":"Product Description",
+        "description2Name":"Brilliant Photos, Even in Low Light",
+        "description3Name":"Be the Photographer of Your Group",
+        "description1":"There are plenty of reasons as to why the OPPO F11 Pro smartphone is going to be your new favourite device. For the picture lovers, this phone will be a boon, thanks to its 48 MP + 5 MP Dual Rear camera and its rising front camera. Its massive 4000 mAh battery will keep you glued to your device, without worrying about charging.",
+        "description2":"Get set to click the perfect portrait picture, even in low light, with the help of the OPPO F11 Pro smartphone. It comprises 80% larger image sensors that capture more light to make your portraits look clear and bright.",
+        "description3":"With the presence of a 48 MP + 5 MP Dual Rear camera, everyone in your group will want their pictures clicked on your phone."
+
+    },
+    
+    {
+        "name":"Vivo S1 Pro",
+        "brand":"Vivo",
+        "price":19990,
+        "camera":"48MP  8MP  2MP  2MP | 32MP Front Camera",
+        "display":" 16.21 cm (6.38 inch) Full HD Display",
+        "memory":" 8 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":" Qualcomm Snapdragon 665 Processor",
+        "battery":" 4500 mAh Lithium Polymer Battery",
+        "includes":" Handset, Headset, USB Cable, USB Power Adapter, SIM Ejector, Protective Case, Protective Film (Applied), Documentation",
+        "images":[
+            "mobile-6-1.jpg",
+            "mobile-6-2.jpg",
+            "mobile-6-3.jpg"
+        ],
+        "description":" If you are looking for a phone that lets you take amazing pictures, the Vivo S1 Pro is for you. With a 32 MP front shooter that captures crystal-clear selfies. The phone also comes with a 48 MP AI quad-camera that lets you capture breathtaking pictures. It also packs in other features such an 8 MP super wide-angle camera, a 4 cm range for its macro camera with a frame-merging algorithm, a huge battery and an impressive 16.20 cm FHD Super AMOLED display. Its is powered by 8 GB of RAM and comes with a storage of 128 GB. The phone also comes with an in-display fingerprint scanner for a secure unlocking experience",
+        "imageCover":"mobile-6-cover.jpg",
+        "description1Name":"Secure Phone Unlocking",
+        "description2Name":"AI Quad Camera",
+        "description3Name":"Powerful Performer",
+        "description1":"The phone comes with an advanced in-display fingerprint scanner that lets you unlock your phone and access its applications in no time. It comes with cool animations that makes unlocking your phone an exciting experience.",
+        "description2":"With the Vivo S1 Pro comes with a powerful 48 MP AI quad-camera on the rear, expect nothing less than stunning photos that are breathtakingly beautiful. The remaining three cameras take care of all your wide-angle, macro and Bokeh needs. These cameras help you take pictures of almost professional levels irrespective of the scene you are capturing.",
+        "description3":"Vivo S1 Pro is a powerful phone that comes with 8 GB of RAM. This helps the phone function in the most efficient manner. With a large storage capacity of 128 GB, you can be rest assured that you will never run out of space for all your favourite media files and pictures."
+
+    },
+    
+    {
+        "name":"Honor 9N",
+        "brand":"Huawei",
+        "price":7499,
+        "camera":"13MP  2MP | 16MP Front Camera",
+        "display":" 14.83 cm (5.84 inches) Display",
+        "memory":" 3 GB RAM | 32 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":" Kirin 659 Octa Core Processor",
+        "battery":" 3000 mAh Battery",
+        "includes":" Quick Start Guide, Warranty Card, Charger, USB Cable, Eject Tool, Handset, Protective Case",
+        "images":[
+            "mobile-7-1.jpg",
+            "mobile-7-2.jpg",
+            "mobile-7-3.jpg"
+        ],
+        "description":"From movies to mobile games, now enjoy a seamless viewing experience on this smartphone, thanks to its Honor Notch FullView 14.84 cm FHD+ Display (19:9 aspect ratio). It offers more screen space for a stunning visual experience. The 12-layer premium glass design on the rear, and the double-sided 2.5D curved glass lend the Honor 9N a sleek and an elegant look. Capture bright and beautiful selfies, even in dimly lit conditions with this phone's 16 MP front camera. Take your photography-game up a notch with the 13+2 MP dual rear camera system. It comes with a professional-level bokeh mode for stunning photos. The Kirin 659 Octa-core 2.36 GHz processor of this phone ensures a lag-free, multitasking experience.",
+        "imageCover":"mobile-7-cover.jpg",
+        "description1Name":"Product Description",
+        "description2Name":"A Beauty to Hold and Flaunt",
+        "description3Name":"Immersive Notch Display",
+        "description1":"Say hello to the Honor 9N smartphone whose aesthetically pleasing design, with mirror-like effects, redefines the definition of 'beautiful'. What makes this phone an exciting one to have is the fact that it has at least one impressive feature to suit every need. If you are someone who catches up on your favorite shows via your phone, then you can elevate your viewing experience by switching to the immersive Notch Display. For the photographers out there, this phone's 16 MP Front Camera and the 13 + 2 MP Dual Rear Camera will let you capture what you see in an enviable manner. Oh, there is something in store for the gamers out there as well. The Game Suite feature ensures a hassle-free gaming experience.",
+        "description2":"This phone's slim design encompasses the Notch FullView Display and 2.5D Glass with mirror-like effects, that makes it a piece worth admiring and flaunting",
+        "description3":"Get set to immerse yourself into the visuals on-screen, thanks to this phone's cutting-edge Notch Display with FHD+ (2280 x 1080) resolution. It has an aspect ratio of 19:9 and a screen-to-body ratio of 79% to ensure a seamless viewing experience."
+
+    },
+    
+    {
+        "name":"Huawei P30 Pro",
+        "brand":"Huawei",
+        "price":79999,
+        "camera":"40MP  20MP  8MP",
+        "display":" 16.43 cm (6.47 inch) Display",
+        "memory":" 8 GB RAM | 256 GB ROM | Expandable Upto 256 GB",
+        "operatingSystem":" ",
+        "battery":" 4200 mAh Battery",
+        "includes":" Handset, Headset,Charger, User Guide, Handfree",
+        "images":[
+            "mobile-8-1.jpg",
+            "mobile-8-2.jpg",
+            "mobile-8-3.jpg"
+        ],
+        "description":" The Huawei P30 Pro is an impressive piece of kit. It has a gorgeous curved screen, flagship Kirin 980 processor, IP68 water and dust resistance, reverse wireless charging, a faster in-display fingerprint scanner, and more",
+        "imageCover":"mobile-8-cover.jpg"
+
+    },
+    
+    {
+        "name":"Apple iPhone 7",
+        "brand":"Apple",
+        "price":27999,
+        "camera":"12MP Rear Camera | 7MP Front Camera",
+        "display":" 11.94 cm (4.7 inch) Retina HD Display",
+        "memory":" 32 GB ROM ",
+        "operatingSystem":" Apple A10 Fusion 64-bit processor and Embedded M10 Motion Co-processor",
+        "battery":" ",
+        "includes":"3000 Li-Ion",
+        "images":[
+            "mobile-9-1.jpg",
+            "mobile-9-2.jpg",
+            "mobile-9-3.jpg"
+        ],
+        "description":" Take your iPhone experience to the next level with iPhone 7. Featuring new camera systems, a better battery-life, an efficient processor and powerful stereo speakers, this smartphone will drastically enhance your iPhone experience. With a sharp and vibrant display, and a sleek water-resistant body, this phone is as powerful as it is attractive",
+        "imageCover":"mobile-9-cover.jpg"
+
+    }
+    
+    
+]

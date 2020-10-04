@@ -1,0 +1,219 @@
+extend base
+block content
+  .slideshow-container
+    .mySlides.fade
+      .numbertext
+      img(src='./../img/card/Visa-Straight.png')
+      .text
+    .mySlides.fade
+      .numbertext
+      img(src='./../img/slideImage/snip1.jpg')
+      .text
+    .mySlides.fade
+      .numbertext
+      img(src='./../img/slideImage/snip2.jpg')
+      .text
+    a.prev(onclick='plusSlides(-1)') ❮
+    a.next(onclick='plusSlides(1)') ❯
+  br
+  div(style='text-align:center')
+    span.dot(onclick='currentSlide(1)')
+    span.dot(onclick='currentSlide(2)')
+    span.dot(onclick='currentSlide(3)')
+  script(src='./../js/slide.js')  
+  .firstCard
+    .card
+      #headerrow.row
+        .col-sm-10
+          spna.head-text-all Deal of the day
+        #button.col-sm-1
+          button.btn.btn-primary(type='button') View All
+      hr
+      .main
+        .container-fluid
+          #row.row
+            each mobile in limitMobile
+              .col-sm-2
+                a(href=`/mobile/${mobile.slug}`) 
+                  .imageproduct
+                    img(src=`img/mobiles/${mobile.imageCover}`,alt = `${mobile.name}` style='width:78px;height:150px')
+                  .card__details
+                    p.card__sub-heading
+                     span=`${mobile.name})`
+                .card__footer
+                  p
+                    span.card__footer-value=`₹${mobile.price}`
+                    | 
+                    span.card__footer-text per person
+                  p.card__ratings
+                    span.card__footer-value=mobile.ratingsAverage
+
+                    | 
+                    span.card__footer-text= `rating (${mobile.ratingsQuantity})` 
+          
+            //- .col-sm-2
+            //-   a(href='#')
+            //-     .imageproduct
+            //-       img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+            //-     .card__details
+            //-       p.card__sub-heading Easy 5-day tour
+            //-   .card__footer
+            //-     p
+            //-       span.card__footer-value $297
+            //-       span.card__footer-text per person
+            //-     p.card__ratings
+            //-       span.card__footer-value 4.9
+            //-       span.card__footer-text rating (21)
+            
+            //- .col-sm-2
+            //-   a(href='#')
+            //-     .imageproduct
+            //-       img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+            //-     .card__details
+            //-       p.card__sub-heading Easy 5-day tour
+            //-   .card__footer
+            //-     p
+            //-       span.card__footer-value $297
+            //-       span.card__footer-text per person
+            //-     p.card__ratings
+            //-       span.card__footer-value 4.9
+            //-       span.card__footer-text rating (21)
+            
+  // closed first card
+  // START SECAND CARD
+  .secand_card
+    .row
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical1.jpg')
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical2.jpg')
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical3.jpg')
+  // Closed Secand card
+  // start third Card
+  .thirdCard
+    .card
+      #headerrow.row
+        .col-sm-10
+          spna.head-text-all Deal of the day
+        #button.col-sm-1
+          button.btn.btn-primary(type='button') View All
+      hr
+      .main
+        .container-fluid
+          #row.row
+            each mobile in limitMobile 
+              .col-sm-2
+                a(href=`/mobile/${mobile.slug}`)
+                  .imageproduct
+                    img(src='./../img/Product/mobile1.jpeg', style='width:78px;height:150px')
+                  .card__details
+                    p.card__sub-heading Mobile-1
+                .card__footer
+                  p
+                    span.card__footer-value $297
+                    span.card__footer-text per person
+                  p.card__ratings
+                    span.card__footer-value 4.9
+                    span.card__footer-text rating (21)
+            // closed Coloum
+            //- .col-sm-2
+            //-   a(href='#')
+            //-     .imageproduct
+            //-       img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+            //-     .card__details
+            //-       p.card__sub-heading Easy 5-day tour
+            //-   .card__footer
+            //-     p
+            //-       span.card__footer-value $297
+            //-       span.card__footer-text per person
+            //-     p.card__ratings
+            //-       span.card__footer-value 4.9
+            //-       span.card__footer-text rating (21)
+            
+            //- .col-sm-2
+            //-   a(href='#')
+            //-     .imageproduct
+            //-       img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+            //-     .card__details
+            //-       p.card__sub-heading Easy 5-day tour
+            //-   .card__footer
+            //-     p
+            //-       span.card__footer-value $297
+            //-       span.card__footer-text per person
+            //-     p.card__ratings
+            //-       span.card__footer-value 4.9
+            //-       span.card__footer-text rating (21)
+            
+  // CLOSED THIRD CARD
+  // START FOURTH CARD
+  .fourthCard
+    .row
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical4.jpg')
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical3.jpg')
+      .col-md-4
+        .card
+          img(src='./../img/vertical/vertical2.jpg')
+  // CLOSED FOURTH CARD
+  // START FIFTHCARD
+  .fifthCard
+    .card
+      #headerrow.row
+        .col-sm-10
+          spna.head-text-all Deal of the day
+        #button.col-sm-1
+          button.btn.btn-primary(type='button') View All
+      hr
+      .main
+        .container-fluid
+          #row.row
+            .col-sm-2
+              a(href='#')
+                .imageproduct
+                  img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+                .card__details
+                  p.card__sub-heading Mobile-2
+              .card__footer
+                p
+                  span.card__footer-value $297
+                  span.card__footer-text per person
+                p.card__ratings
+                  span.card__footer-value 4.9
+                  span.card__footer-text rating (21)
+            
+            .col-sm-2
+              a(href='#')
+                .imageproduct
+                  img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+                .card__details
+                  p.card__sub-heading Mobile-3
+              .card__footer
+                p
+                  span.card__footer-value $297
+                  span.card__footer-text per person
+                p.card__ratings
+                  span.card__footer-value 4.9
+                  span.card__footer-text rating (21)
+            
+            .col-sm-2
+              a(href='#')
+                .imageproduct
+                  img(src='./../img/Product/mobile1.jpeg', style='width:100px')
+                .card__details
+                  p.card__sub-heading Mobile-4
+              .card__footer
+                p
+                  span.card__footer-value $297
+                  span.card__footer-text per person
+                p.card__ratings
+                  span.card__footer-value 4.9
+                  span.card__footer-text rating (21)
+            
+  // CLOSED FIFTH CARD

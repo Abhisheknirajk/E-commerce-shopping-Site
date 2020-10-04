@@ -1,0 +1,189 @@
+.main-account{
+    /* border: 2px solid red; */
+    /* margin-left: 10px; */
+
+}
+.account{
+    /* border: 1px solid green; */
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+/* #accountImage{
+    border: 2px solid yellow;
+    height: 80px;
+} */
+
+#SecandAccount-Coloum{
+/* border: 1px solid green; */
+/* height: 400px; */
+}
+#account_Detail_Setting {
+    width: 100%;
+    /* margin-left: 20px; */
+    /* border: 1px solid black; */
+    display: flex;
+    /* margin-right: 20px; */
+    margin-top: 10px;
+    text-align: center;
+}
+#account_Detail_Setting-admin{
+    width: 100%;
+    /* margin-left: 20px; */
+    /* border: 1px solid green; */
+    display: flex;
+    margin-right: 20px;
+    text-align: center;
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+}
+#account_Detail_Setting-set{
+    width: 100%;
+    /* margin-left: 20px; */
+    /* border: 1px solid black; */
+    display: flex;
+    margin-right: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+#accountImage img{
+    /* border: 1px solid green; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    /* margin-left: 30px; */
+    margin-top: 10px;
+    
+    /* display: flex; */
+
+}
+.acoount_text{
+/* border: 1px solid blue; */
+margin-top: 7px;
+/* text-align: center; */
+margin-left: 15px;
+margin-right: 10px;
+display: flex;
+}
+.acoount_heading{
+    /* border: 1px solid yellow; */
+    /* margin-left: 25px; */
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(95, 95, 95);
+
+    font-family: 'Lucida  sans-serif';
+    font-weight: lighter;
+    
+}
+.acoount_heading-set p{
+    
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(95, 95, 95);
+
+    font-family: 'Lucida  sans-serif';
+    font-weight: lighter;
+    
+    
+}
+.mat_icon{
+    /* border:1px solid red; */
+    display: flex;
+    float: left;
+    color: blue;
+    size: 30px;
+    text-align: center;
+    /* margin-left: 30px; */
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#account_Detail_Setting a,#account_Detail_Setting-admin a{
+    color: black;
+    
+
+}
+#account_Detail_Setting a:hover,#account_Detail_Setting-admin a:hover{
+ text-decoration:none;
+}
+#account_Detail_Setting-set a{
+    color: black;
+    
+
+}
+#account_Detail_Setting-set a:hover{
+ text-decoration:none;
+ color:blue;
+}
+
+
+
+
+
+
+
+.form__label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  
+  .form__photo-upload {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.6rem;
+  }
+  
+  .form__user-photo {
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  
+  .form__upload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .form__upload:focus + label {
+    outline: 3px solid #55c57a;
+    outline-offset: 3px;
+  }
+  
+  .form__upload + label {
+    color: #55c57a;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #55c57a;
+    padding: 3px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .form__upload + label:hover {
+    background-color: #55c57a;
+    color: #fff;
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  

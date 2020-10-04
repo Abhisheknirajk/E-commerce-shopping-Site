@@ -1,0 +1,573 @@
+ .w3-blue{
+  /* position:fixed ; */
+  top: 0;
+  width: 100%;
+  height: 60px;
+  /* background-color: green;   */
+}
+.image a h4{
+  color: white;
+  text-underline-position: above;
+}
+/*
+.w3-container.w3-blue img{
+  margin-top: 5px;
+  height: 40px;
+} */
+
+/* .card1{
+  border: 1px solid green;
+  margin-top:50px ; 
+  position: sticky;
+  overflow: hidden;
+} */
+.header_containet{
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+li {
+  float: left;
+ 
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+  /* border: 1px solid red;
+  margin-left: 75px; */
+  
+}
+ a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* Search bar*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+/* background: whitesmoke; */
+font-family: 'Open Sans', sans-serif;
+}
+/* 
+.search {
+width: 100%;
+
+margin-top:10px;
+display: flex;
+
+}
+
+.searchTerm {
+width: 100%;
+border: 3px solid white;
+border-right: none;
+padding: 5px;
+height: 36px;
+outline: none;
+color:auto;
+} */
+
+
+
+.search {
+  width: 100%;
+  /* border: 1px solid rgba(0, 0, 255, 0.74); */
+  /* border: 1px solid black; */
+  height: 42px;
+  margin-top:10px;
+  display: flex;
+  /* margin-left: 75px; */
+  background: white;
+  /* margin-top: 20px; */
+
+}
+.searchTerm {
+  width: 100%;
+  background: white;
+  border-right: none;
+  padding: 5px;
+  text-align: center;
+  outline: none;
+  /* input-type:none; */
+  border-bottom: none!important;
+  box-shadow: none!important;
+  /* color:auto; */
+}
+
+
+.searchTerm:focus{
+color: black;
+}
+
+.searchButton {
+width: 40px;
+height: 36px;
+border: 1px solid white;
+background: white;
+text-align: center;
+color:blue;
+cursor: pointer;
+font-size: 20px;
+/* border: 1px solid green; */
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+width: 100%;
+position: absolute;
+}
+.three{
+margin-left: 50px;
+/* border: 1px solid red; */
+
+}
+.one{
+margin-left: 60px;
+}
+.image{
+margin-top: 10px;
+margin-left: 30px;
+}
+.dropdown-menu{
+
+background-color: green;
+}
+
+/*USER IMAGE*/
+.userImage img{
+  
+  width: 45px;
+  margin-left:5px;
+  /* padding: 1px; */
+  border-radius: 50%;
+  /* background-color: white; */
+  /* border: 1px solid red; */
+
+  
+  
+}
+
+
+/*FOOTER */
+
+
+.footer{
+  border:1px solid #003152;
+  background-color: #003152 ;
+  color: white;
+  margin-top: 5px;
+}
+.menu p{
+  color: #7285A5;
+  font-size: 13px;
+}
+/* li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 0px;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+} */
+.menu{
+    margin-top: 30px;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    
+}
+
+ ul{
+    /* border: 2px solid red; */
+    padding-left: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 55px;
+}
+ li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1px;
+  font-size: 13px;
+}
+.line{
+    border-left: 1px solid #7285A5 ;
+}
+.he{
+    margin-left: 15px;
+}
+
+.con p{
+  /* border: 2px solid green; */
+  margin-left: 15px;
+  color: white;
+}
+.conp p{
+  color: white;
+}
+.bo{
+  margin-top: 20px;
+  border-bottom: 1px solid #7285A5;
+}
+.under-footer{
+  margin-left: 0px;
+  margin-top: 20px;
+  /* border:1px solid green; */
+}
+.imageIcon img{ 
+  width:20px;
+  height: 20px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 5px;
+  /* border: 1px solid green; */
+}
+
+.imageCard img{
+  float: left;
+  width: 35px;
+  height: 20px;
+}
+
+
+/*END FOOTER CSS*/
+
+/*SLIDE IMAGE CSS*/
+
+/* * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0} */
+/* .mySlides {display: none} */
+.mySlides img {vertical-align: middle;}
+
+
+
+.slideshow-container {
+  
+  position: relative;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-right: 10px;
+  /* border: 1px solid green; */
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  height: 110px;
+  margin-top: -50px;
+  color:black;
+  background-color: white;
+  font-weight: bold;
+  font-size: 30px;
+padding-top: 35px;
+  transition: 2 ease;
+  border-radius: 0 4px 4px 0;
+  user-select: none;
+}
+.mySlides.fade img{
+    width: 100%;
+    height: 260px;
+    /* border: 2px solid red; */
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+/* The dots/bullets/indicators */
+
+/* Fading animation */
+.mySlides.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*overviewSTYLE*/
+
+
+.firstCard {
+  /* border: 2px solid greenyellow; */
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  margin-right: 10px;
+  /* margin-top: none; */
+  /* border: 1px solid red; */
+  background-color: white;
+  
+}
+.secand_card{
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color:whitesmoke;
+  height: 250px;
+}
+
+.thirdCard{
+   /* border: 2px solid greenyellow; */
+   margin-left: 10px;
+   box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+   transition: 0.3s;
+   margin-right: 10px;
+   margin-top: 5px;
+   /* border: 1px solid red; */
+   background-color: white;
+   
+}
+.fourthCard{
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color:whitesmoke;
+  height: 250px;
+
+}
+.fifthCard{
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  margin-right: 10px;
+  margin-top: 5px;
+  /* border: 1px solid red; */
+  background-color: white;
+  
+}
+#headerrow{
+  /* border: 1px solid yellow; */
+  margin-top: 7px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+#button{
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+/* body{
+  background-color: green;
+} */
+
+/*CardDetail*/
+.card__details {
+  
+  text-align: center;
+  margin-top: 7px;
+  
+}
+.imageproduct{
+  text-align: center;
+
+}
+
+/* .imageproduct img{
+  width:100px;
+  height:180px;
+
+} */
+/* .card__sub-headingt {
+  color: blue;
+} */
+/* .card__sub-heading h4{
+  color: black;
+} */
+.card__details p{
+  color: black;
+}
+.card__details p:hover{
+  color:rgba(0, 0, 255, 0.74);
+}
+.card__footer {
+  text-align: center;
+}
+.card__footer p{
+  font-weight: 700;
+}
+
+
+/*LOGIN FORM AND ALL FORM*/
+
+
+/* .login-form {
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+ 
+  max-width: 55rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2.5rem 8rem 2rem rgba(0, 0, 0, 0.06);
+  padding: 5rem 7rem;
+  border-radius: 5px;
+  border:1px solid green;
+ 
+}
+
+.form__input {
+  display: block;
+  font-family: inherit;
+  font-size: 1.5rem;
+  color: inherit;
+  padding: 1.25rem 1.75rem;
+  border: none;
+  width: 100%;
+  background-color: #fff;
+  background-color: #f2f2f2;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  Pseudo element (a visible thing that isn't really in the DOM).
+      Also needs -ms-
+} */
+/* .form__input:focus {
+  outline: none;
+  border-bottom: 3px solid #55c57a;
+}
+.form__input:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+.form__input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+.form__group:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.form__label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.form__photo-upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.form__user-photo {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.form__upload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__upload:focus + label {
+  outline: 3px solid #55c57a;
+  outline-offset: 3px;
+}
+
+.form__upload + label {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.form__upload + label:hover {
+  background-color: #55c57a;
+  color: #fff;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+} */
+/*ALERT MESSAGE*/
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9999;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1.6rem 15rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+}
+.alert--success {
+  background-color: #20bf6b;
+}
+.alert--error {
+  background-color: #eb4d4b;
+}
+
+
+/* NAV*/
+

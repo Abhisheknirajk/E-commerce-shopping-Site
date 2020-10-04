@@ -1,0 +1,95 @@
+extend base
+block content
+ .wrapmobile
+  // The flexible grid (content)
+  .container_product
+    #card.card
+      .container-fluid
+        .rowmobile
+          .side
+            #onemobile.card
+              .img-zoom-container
+                img#myimage(src=`/img/mobiles/${mobile.imageCover}`, width='55%;')
+            .button_card(style='margin-top:5%;')
+              .row
+                //- .col-sm-6
+                //-   #addbutton.w3-card(style=' background-color:orange;')
+                //-     // <i class="material-icons">shopping_cart</i>
+                //-     i.material-icons(style='font-size:20px;') shopping_cart
+                //-     |                       Add To Cart
+                .col-sm-6
+                  if user
+                    #addbutton.w3-card(style='background-color:#FF4500')(data-mobile-id =`${mobile.id}`)
+                      // <i class="material-icons">shopping_cart</i>
+                      i.material-icons(style='font-size:20px;') flash_on
+                      span.o Buy Now
+                  else
+                   a(href='/login')
+                    #addbutton.w3-card(style='background-color:#FF4500')
+                      // <i class="material-icons">shopping_cart</i>
+                      i.material-icons(style='font-size:20px;') flash_on
+                      span.o Log In
+          // Side
+          .mainmobile
+            .imageBox
+              #myresult.img-zoom-result
+              .product_detail
+                p.pro_head
+                  span=`${mobile.name} (${mobile.memory}) #JustHere`
+                  //- span Redmi Note 7 Pro (Neptune Blue, 64 GB) (4 GB RAM)#JustHere
+                  
+                p
+                  span.review_value=`${mobile.ratingsAverage} ${mobile.ratingsQuantity} Ratings & ${mobile.ratingsQuantity} Reviews`
+                  //- span.review_value 4.5 7,46,399 Ratings & 66,228 Reviews
+                p
+                  span.price_value=`₹${mobile.price}`
+                p Highlighter
+                p
+                    span.ram_value=`${mobile.memory}`
+                p   
+                 span.dis_value=mobile.display
+                p 
+                 span.dis_value=mobile.camera
+                p 
+                 span.dis_value=mobile.battery
+                p 
+                 span.dis_value=mobile.operatingSystem
+                  
+                p
+                  span.dis_value=mobile.description
+                
+                .card(style='margin-top:20%;')
+                  h5.Pro_dis_header
+                    span=mobile.description1Name
+                  p.discrip_prod
+                    span=mobile.description1
+                  hr
+                  h5.Pro_performance_header
+                    span=mobile.description2Name
+                  p.discrip_prod
+                    span
+                      img(src='performance_img1.jpg', style='float:right;')
+                    span=mobile.description2                           
+                  hr
+                  h5.Pro_camera_header
+                    span=mobile.description3Name
+                  p.discrip_prod_camera
+                    span
+                      img(src='performance_img1.jpg', style='float:left;')
+                      span.text_value=mobile.description3
+        
+                // Discription Card
+                // Product_detail
+                // ImageBox
+                // Main
+                // row
+                // Containerfluid
+                // Card_Whole Crad
+                // ContainerProduct
+  //- hr              
+  //- .row(style = 'background-color:white')
+  //-   .containerMobile(style='text-align:center')
+  //-      p Hiidguytyut78etf gyudygwvfdt buteghyu vtdgy
+ script.
+    // Initiate zoom effect:
+    imageZoom('myimage', 'myresult');

@@ -1,0 +1,33 @@
+.w3-card-4(style='width:100%;')
+  header.w3-container.w3-blue
+    .row
+      .col-sm-4.one
+        .image
+         a(href='/')
+           img(src='./../img/logo-white.png', alt='Smiley face', style='float:right;height: 30px;')
+           h4 Techspark
+      //- .col-sm-5.two
+      //-   .wrap
+      //-     .search
+      //-       input.searchTerm(type='text', placeholder='What are you looking for?')
+      //-       button.searchButton(type='submit')
+      //-         i.fa.fa-search
+      .col-sm-4.three
+        ul 
+          if user
+            li 
+              a.nav__el.nav__el--logout(href = '/') 
+               h6 Log out
+               a.nav__el.nav__el--logout(href = '/account') 
+                span=user.name.split(' ')[0]
+                span.userImage
+                 img(src=`./../img/users/${user.photo}`)
+          else
+            li
+              a(href='/login') 
+               h6 Login
+            li
+              a(href='/singup') 
+               h6 SingUp
+  .w3-container.card1(style='width:100%;height:40px')
+          
